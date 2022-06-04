@@ -59,11 +59,15 @@ View the following walk through videos here
   - GET All Data =>:[Screencastify](https://drive.google.com/file/d/1rOO6svGCc9EPFtHMGH6yB-NeqwDjWsLa/view)<br>
   - GET Data By ID =>:[Screencastify](https://drive.google.com/file/d/1bvLoK3Xfn2Z24EEQ8RFHywgO7FnjzlfV/view)<br>
   - Insert Data =>:[Screencastify](https://drive.google.com/file/d/1NNHVt97mZFMv8oir7lR6rkzQo-hVBdlj/view)<br>
-
-  ![alt video](./assets/videos/DB_Setup.gif)<br> <br> <br>
-  ![alt video](./assets/videos/GET_All_Data.gif)<br><br> <br>
-  ![alt video](./assets/videos/GET_By_ID.gif)<br><br> <br>
-  ![alt video](./assets/videos/Insert_Data.gif)<br><br> <br>
+    <br> <br>
+  - Database Setup
+    ![alt video](./assets/videos/DB_Setup.gif)<br> <br> <br>
+  - GET All Data
+    ![alt video](./assets/videos/GET_All_Data.gif)<br><br> <br>
+    GET Data By ID
+    ![alt video](./assets/videos/GET_By_ID.gif)<br><br> <br>
+  - Insert Data
+    ![alt video](./assets/videos/Insert_Data.gif)<br><br> <br>
 
 ## License
 
