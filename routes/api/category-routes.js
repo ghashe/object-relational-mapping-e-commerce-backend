@@ -43,7 +43,9 @@ router.get("/:id", (req, res) => {
       if (!databaseCategoryData) {
         res
           .status(400)
-          .json({ message: "Sorry, this category has not been found!" });
+          .json(
+            `Sorry, No category with id =>: ${req.params.id} has been found! Please check your input and try again!`
+          );
         return;
       }
       res.json(databaseCategoryData);
@@ -75,9 +77,11 @@ router.put("/:id", (req, res) => {
   })
     .then((databaseCategoryData) => {
       if (!databaseCategoryData) {
-        res.status(400).json({
-          message: "Sorry, with the provided id category has not been found!",
-        });
+        res
+          .status(400)
+          .json(
+            `Sorry, No category with id =>: ${req.params.id} has been found! Please check your input and try again!`
+          );
         return;
       }
       res.json(databaseCategoryData);
