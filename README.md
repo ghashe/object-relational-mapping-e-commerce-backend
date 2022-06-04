@@ -54,7 +54,7 @@
 View the following walk through videos here
 
 - Screencastify
-  - Database Setup =>:[Screencastify](https://drive.google.com/file/d/1IWgUwx2YL3tDjJF8WJwTQm_p_rJZ5_6W/view)<br>
+  - Database Setup =>:[Screencastify](https://drive.google.com/file/d/16hiGRZs-DYcbRHPm52ubb3HUcfdr6Bxq/view)<br>
     ![alt video](./assets/videos/DB_Setup.gif)<br>
 
 ## License
