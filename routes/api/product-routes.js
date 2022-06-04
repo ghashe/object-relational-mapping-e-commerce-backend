@@ -61,9 +61,11 @@ router.get("/:id", (req, res) => {
     .then((databaseCategoryData) => {
       if (!databaseCategoryData) {
         // Sending a status 400 message to the user if product with the given id is not found
-        res.status(400).json({
-          message: `Sorry, No product with id ${req.params.id} has been found! Please check your input and try again!`,
-        });
+        res
+          .status(400)
+          .json(
+            `Sorry, No product with id =>: ${req.params.id} has been found! Please check your input and try again!`
+          );
 
         // Sending the product to the user if product with the given id is found
         return;
