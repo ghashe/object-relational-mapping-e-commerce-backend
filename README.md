@@ -4,11 +4,11 @@
 
 ## Description
 
-    This project is a back-end application built using MySQL2, Express, Sequelize, and dotenv for an e-commerce site with a command line interface (CLI) and object-relational mapping site that uses various methods for data manipulation, storage, and retrieval using HTTP methods and a RESTUL API.
+    This project is a back-end application built using MySQL2, Express, Sequelize, and dotenv for an e-commerce site with a command line interface (CLI) and object-relational mapping site that uses various methods for data manipulation, storage, and retrieval using HTTP methods and a  RESTUL API.
 
     By running the schema.sql file in the database folder, MySQL Workbench will create the ecommerce_db and establish the connection with Insomnia Core via the command line interface (CLI) and the specific npm packages as well as MySQL2, Express, Sequelize, and Dotenv will be installed through npm i, npm i mysql2, npm i sequelize, and npm i dotenv.
 
-    If you have successfully installed the node.js packages and seeded the database, run npm start to start the server and connect to localhost:3001/api/ and Using Insomnia Core, you can test all API POST, PUT, and DELETE routes.
+    If you have successfully installed the node.js packages and seeded the database, run npm start to start the server and connect to localhost:3001/api/ and using Insomnia Core, you can test all API POST, PUT, and DELETE routes.
 
 ## Table of Content
 
@@ -16,13 +16,12 @@
 - [Tech and Dependencies](#tech-and-dependencies)
 - [Usage](#usage)
 - [License](#license)
-- [Visual](#visual)
 - [Contributing](#contributing)
 - [Questions](#questions)
 
 ## Installation
 
-    In order to use this application, simply git clone the repo to your local so that you have the Node project there on your local machine, then install the npm package dependencies listed in your package.json file using npm install, and follow clearly written below instalation guidelines to run the app.
+    In order to use this application, simply git clone the repo to your local so that you have the Node project there on your local machine, then install the npm package dependencies listed in your package.json file using npm install, and follow clearly written below instalation guidelines to install the app.
 
     Using the command line, you should run node server.js to start the application.
 
@@ -55,27 +54,43 @@ View the following walk through videos here
 
 - Screencastify
 
-  - Database Setup =>:[Screencastify](https://drive.google.com/file/d/16hiGRZs-DYcbRHPm52ubb3HUcfdr6Bxq/view)<br>
-  - GET All Data =>:[Screencastify](https://drive.google.com/file/d/1rOO6svGCc9EPFtHMGH6yB-NeqwDjWsLa/view)<br>
-  - GET Data By ID =>:[Screencastify](https://drive.google.com/file/d/1bvLoK3Xfn2Z24EEQ8RFHywgO7FnjzlfV/view)<br>
-  - Insert Data =>:[Screencastify](https://drive.google.com/file/d/1NNHVt97mZFMv8oir7lR6rkzQo-hVBdlj/view)<br>
+  - Database Setup
+    - Database Setup =>:[Screencastify](https://drive.google.com/file/d/16hiGRZs-DYcbRHPm52ubb3HUcfdr6Bxq/view)<br>
+  - GET or Fetch Data
+    - GET All Data =>:[Screencastify](https://drive.google.com/file/d/1rOO6svGCc9EPFtHMGH6yB-NeqwDjWsLa/view)<br>
+    - GET Data By ID =>:[Screencastify](https://drive.google.com/file/d/1bvLoK3Xfn2Z24EEQ8RFHywgO7FnjzlfV/view)<br>
+  - Insert Data
+    - Insert Data =>:[Screencastify](https://drive.google.com/file/d/1NNHVt97mZFMv8oir7lR6rkzQo-hVBdlj/view)<br>
+  - PUT or Update Data
+    - PUT Products Data =>:[Screencastify](https://drive.google.com/file/d/1wuaqju8Z9gmXOtrsshW_QEKWkFrGMqU1/view)<br>
+    - PUT Category Data =>:[Screencastify](https://drive.google.com/file/d/117xJ3He1-pwlRZC7jHNHeQOKET5f2EFP/view)<br>
+    - PUT Tag Data =>:[Screencastify](https://drive.google.com/file/d/1l7AxRCE7wRUb18ARoh8JiBXwSrlDVpNQ/view)<br>
+  - DELETE Data
+  - DELETE Products and Tag Data =>:[Screencastify](https://drive.google.com/file/d/1mMaVQKswFRo622tQrrds_BH8Hcik_Dew/view)<br>
+
     <br> <br>
+
   - Database Setup
     ![alt video](./assets/videos/DB_Setup.gif)<br> <br> <br>
   - GET All Data
     ![alt video](./assets/videos/GET_All_Data.gif)<br><br> <br>
-    GET Data By ID
+  - GET Data By ID
     ![alt video](./assets/videos/GET_By_ID.gif)<br><br> <br>
   - Insert Data
     ![alt video](./assets/videos/Insert_Data.gif)<br><br> <br>
+  - PUT (Update File) for Products tables
+    ![alt video](./assets/videos/PUT_Products.gif)<br><br> <br>
+  - PUT (Update File) for Category tables
+    ![alt video](./assets/videos/PUT_Category.gif)<br><br> <br>
+  - PUT (Update File) for Tag tables
+    ![alt video](./assets/videos/PUT_Tag.gif)<br><br> <br>
+  - DELETE Data
+  - DELETE Products and Tag tables
+    ![alt video](./assets/videos/DELETE_Products%26Tag.gif)<br><br> <br>
 
 ## License
 
     MIT license has been applied to this project
-
-## Visual
-
-<br>
 
 ## Contributing
 
