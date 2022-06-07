@@ -62,11 +62,13 @@ router.post("/", (req, res) => {
   // create a new tag
   Tag.create({
     tag_name: req.body.tag_name,
-  }).then((databaseTagData) => res.json(databaseTagData));
-  res
-    .status(200)
-    .json(
-      `Tag with tag name => ${req.body.tag_name} has been successfully created!`
+  })
+    .then((databaseTagData) =>
+      res
+        .status(200)
+        .json(
+          `Tag with tag name => ${req.body.tag_name} has been successfully created!`
+        )
     )
     .catch((err) => {
       console.log(err);
