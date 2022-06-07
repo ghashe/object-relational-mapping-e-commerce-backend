@@ -170,14 +170,16 @@ router.delete("/:id", (req, res) => {
     .then((databaseCategoryData) => {
       // Sending a status 404 message to the user if no product with the given id is found
       if (!databaseCategoryData) {
-        res.status(404).json({
-          message: `Sorry, No product with id ${req.params.id} has been found! Please check your input and try again!`,
-        });
+        res
+          .status(404)
+          .json(
+            `Sorry, No product with id ${req.params.id} has been found! Please check your input and try again!`
+          );
         return;
       }
-      res.json(databaseCategoryData).json({
-        message: `The product with id ${req.params.id} has been successfully removed`,
-      });
+      res.json(
+        `The product with id ${req.params.id} has been successfully removed`
+      );
     })
     .catch((err) => {
       console.log(err);
